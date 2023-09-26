@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    /* max-width: var(--max-width); */
+}
+
+.header .mode-switch {
+    display: flex;
+    gap: 10px;
+}
+
+.header .mode-switch .icon {
+    margin: auto 0;
+}

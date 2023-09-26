@@ -1,0 +1,13 @@
+.button {
+    padding: 1.1rem 2rem;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 5px;
+}
+
+.button svg {
+    margin: auto 0;
+}
+

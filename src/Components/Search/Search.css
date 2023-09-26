@@ -1,0 +1,17 @@
+.search {
+    padding: 1rem 3rem;
+    display: flex;
+    height: fit-content;
+    margin: auto 0;
+    width: fit-content;
+}
+
+.search .icon {
+    margin: auto;
+}
+
+@media only screen AND (max-width: 580px) {
+    .search {
+        width: 100%;
+    }
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+:root {
+
+    /* Colors */
+
+    --dark-element: hsl(209, 23%, 22%);
+    --dark-bg: hsl(207, 26%, 17%);
+    --dark-text: hsl(0, 0%, 100%);
+
+    --light-element: hsl(0, 0%, 100%);
+    --light-text: hsl(200, 15%, 8%);
+    --light-input: hsl(0, 0%, 52%);
+    --light-bg: hsl(0, 0%, 98%);
+
+    /* Shadows */
+
+    --dark-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+
+    /* Elements */
+
+    --border-radius: 7px;
+
+    /* Fonts */
+
+    --fs-1: 1.4rem;
+    --fs-2: 1.6rem;
+    --fs-3: 1.8rem;
+    --fs-4: 2rem;
+    --fs-5: 2.3rem;
+
+    --fw-thin: 300;
+    --fw-regular: 600;
+    --fw-bold: 800;
+
+    --max-width: 1110px;
+}
+
+.dark-shadow {
+    box-shadow: var(--dark-shadow);
+}
+
+.dark-bg {
+    background-color: var(--dark-bg);
+}
+
+.dark-text {
+    color: var(--dark-text);
+}
+
+.dark-element {
+    background-color: var(--dark-element);
+}
+
+.dark-input {
+    color: var(--dark-text);
+}
+
+.light-bg {
+    background-color: var(--light-bg);
+}
+
+.light-text {
+    color: var(--light-text);
+}
+
+.light-element {
+    background-color: var(--light-element);
+}
+
+.light-input {
+    color: var(--light-input);
+}
+
+.fs-1 {
+    font-size: var(--fs-1);
+}
+
+.fs-2 {
+    font-size: var(--fs-2);
+}
+
+.fs-3 {
+    font-size: var(--fs-3);
+}
+
+.fs-4 {
+    font-size: var(--fs-4);
+}
+
+.fs-5 {
+    font-size: var(--fs-5);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-thin {
+    font-weight: var(--fw-thin);
+}
+
+.hoverable {
+    cursor: pointer;
+}
+
+.hoverable:hover {
+    opacity: 0.8;
+}
+
+.color-transition {
+    transition: color .15s, background-color .15s;
+}
+
+
+
+.border-radius {
+    border-radius: var(--border-radius);
+}
+
+:root {
+    --fs-5: 1.8rem;
+}

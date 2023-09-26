@@ -1,0 +1,33 @@
+.filter {
+    position: relative;
+    padding: 1.7rem 3rem;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.filter-list {
+    position: absolute;
+    padding: 0;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    top: 110%;
+    z-index: 99;
+}
+
+.filter .icon {
+    margin: auto 0;
+}
+
+.filter .text {
+    margin: auto 0;
+}
+
+.filter-list .element {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 2rem;
+}

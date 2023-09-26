@@ -1,0 +1,44 @@
+* , *::after, *::before {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: 'Nunito Sans', arial
+}
+
+a, a:visited, a:focus, a:hover {
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: unset;
+}
+
+p::selection, h1::selection {
+    background-color: unset;
+}
+
+input, input:focus, input::selection {
+    padding: 1rem 4rem;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+input::placeholder {
+    opacity: 1;
+}
+
+input::placeholder.light-text {
+    opacity: 1;
+}
+
+.light-text::placeholder{
+    color: var(--light-input);
+
+}
+
+.dark-text::placeholder {
+    color: var(--dark-text);
+}
